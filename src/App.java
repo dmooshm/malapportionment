@@ -5,6 +5,7 @@ public class App {
         System.out.println(dataAnalysis.findMalapportionment());
         System.out.println(dataAnalysis.findStateDisproportionality());
         System.out.println(dataAnalysis.findNationalDisproportionality());
+        System.out.println(dataAnalysis.findVoteTotal());
 
     }
 }

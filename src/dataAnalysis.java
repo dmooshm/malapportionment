@@ -159,4 +159,18 @@ public static final data[] state = data.getData();
 
     }
 
+    public static int findVoteTotal() {
+
+        int voteTotal = 0;
+
+        for (int i = 0; i < data.stateNumber; i++) {
+
+            voteTotal += state[i].dv + state[i].rv;
+
+        }
+
+        return voteTotal;
+
+    }
+
 }
